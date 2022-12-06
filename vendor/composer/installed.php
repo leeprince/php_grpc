@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => 'leeprince/php_grpc',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'google/protobuf' => array(
+            'pretty_version' => 'v3.12.4',
+            'version' => '3.12.4.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../google/protobuf',
+            'aliases' => array(),
+            'reference' => 'e8316b6aaf62a4dc506b8f88a88e506280c8538d',
+            'dev_requirement' => false,
+        ),
+        'grpc/grpc' => array(
+            'pretty_version' => '1.42.0',
+            'version' => '1.42.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../grpc/grpc',
+            'aliases' => array(),
+            'reference' => '9fa44f104cb92e924d4da547323a97f3d8aca6d4',
+            'dev_requirement' => false,
+        ),
+        'leeprince/php_grpc' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+    ),
+);

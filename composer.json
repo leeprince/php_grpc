@@ -1,0 +1,22 @@
+{
+    "name": "leeprince/php_grpc",
+    "description": "prince php grpc",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Leeprince\\PhpGrpc\\": "src/",
+            "Helloctl\\": "grpc/helloctl/Helloctl",
+            "GPBMetadata\\": "grpc/helloctl/GPBMetadata"
+        }
+    },
+    "authors": [
+        {
+            "name": "leeprince",
+            "email": "leeprince@foxmail.com"
+        }
+    ],
+    "require": {
+        "grpc/grpc": "1.42.0",
+        "google/protobuf": "~v3.12.2"
+    }
+}
